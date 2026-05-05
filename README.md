@@ -1,5 +1,5 @@
 #  MelaNostrum consortium - 9p21 deletion release
-  This repo contains the code used for analysis in our manuscript titled: "A high-penetrance intergenic variant at 9p21 confers melanoma susceptibility".
+  This repo contains the code used for analysis in our manuscript titled: "A high-penetrance intergenic variant at 9p21 confers melanoma susceptibility".  
   The MelaNostrum consortium studies the genetics, environmental and clinical determinants of melanoma risks and progression in Mediterranean, South American and North African (https://dceg.cancer.gov/research/cancer-types/melanoma/melanostrum).
   File description:
   
