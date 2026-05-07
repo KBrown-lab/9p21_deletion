@@ -1,11 +1,7 @@
 # This script is to plot mean DP across 9p21 for 7646-01005 WGS
 
 # Load the packages
-library(tidyverse)
-library(ggpubr)
-library(hrbrthemes)
-library(scales)
-library(ggsci)
+library(ggplot)
 library(dplyr)
 
 # ==============================================================================
