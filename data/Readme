@@ -1,3 +1,0 @@
-This folder contains fasta files extracted out from the human reference hg38 assembly (https://github.com/broadinstitute/gatk/blob/master/src/test/resources/large/Homo_sapiens_assembly38.fasta.gz)
-- Reference file: 524,288 bp (chr9:21756689-22280977)
-- 9p21 deletion file: same sequence coordinates as the reference file, but masked with Ns for the deletion (chr9:22180210-22280977) using bedtools maskfasta function
