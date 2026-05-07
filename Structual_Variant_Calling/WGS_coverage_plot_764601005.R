@@ -18,7 +18,7 @@ library(dplyr)
 # Make coverage plots
 # ==============================================================================
 # Read in the samtools coverage file
-data <- read_delim("/Volumes/data/WGS_MelaNostrum/WGS/chr9_related/WGS_764601005_samtools_depth.txt", 
+data <- read_delim("WGS_764601005_samtools_depth.txt", 
                    delim = "\t", col_names = F)
 
 # Set up colnames
@@ -31,11 +31,11 @@ data$depth <- data$DP/data$mean
 # Plot the coverage
 ggplot(data,aes(Position,depth))+
     geom_line(col="blue",size=0.3)+
-    labs(x='\nChromosome  (Mb)', y="Scaled coverage") 
+    labs(x='\nChromosome position', y="Scaled coverage") 
  
 # Adjust the plotting region to highlight the deletion
 ggplot(data[data$Position >= 22117000 & data$Position <= 22442855,],
        aes(Position,depth))+
   geom_line(col="blue",size=0.3)+
-  labs(x='\nChromosome  (Mb)', y="Scaled coverage") 
+  labs(x='\nChromosome position', y="Scaled coverage") 
 
