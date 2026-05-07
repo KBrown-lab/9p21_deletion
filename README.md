@@ -7,21 +7,7 @@ https://dceg.cancer.gov/research/cancer-types/melanoma/melanostrum
 
 The repository is organized into two main analysis modules:
 
-## 1. AlphaGenome prediction
-
-This folder contains code and input sequence files used to predict the regulatory effects of the 9p21 deletion using the deep learning model AlphaGenome.
-
-Included files:
-
-- `AlphaGenome_prediction_9p21deletion.ipynb`  
-  Jupyter Notebook used to run AlphaGenome predictions for the reference and deletion alleles.
-
-- `AlphaGenome_prediction_9p21deletion.html`  
-  Static rendered HTML version of the notebook for convenient viewing without running Jupyter.
-
-- FASTA files containing GRCh38/hg38 genomic sequences used as input for AlphaGenome prediction.
-
-## 2. Structural variant calling
+## 1. Structural variant calling
 
 This folder contains the script used to call structural variants from the whole-genome sequencing BAM file using ClinSV.
 
@@ -36,6 +22,20 @@ The WGS data generated for sample `7646-01005` are available through dbGaP under
 
 Individual-level sequencing data are not included in this repository because of participant privacy and controlled-access data restrictions.
 
+## 2. AlphaGenome prediction
+
+This folder contains code and input sequence files used to predict the regulatory effects of the 9p21 deletion using the deep learning model AlphaGenome.
+
+Included files:
+
+- `AlphaGenome_prediction_9p21deletion.ipynb`  
+  Jupyter Notebook used to run AlphaGenome predictions for the reference and deletion alleles.
+
+- `AlphaGenome_prediction_9p21deletion.html`  
+  Static rendered HTML version of the notebook for convenient viewing without running Jupyter.
+
+- FASTA files containing GRCh38/hg38 genomic sequences used as input for AlphaGenome prediction.
+  
 ## Software dependencies
 
 The analyses were performed using the following software:
