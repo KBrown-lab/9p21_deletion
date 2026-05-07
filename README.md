@@ -13,7 +13,7 @@ This folder contains the R script to plot read coverage for the WGS sample and s
 
 Included files:
 
-- R script for plotting read coverage for the sample `7646-01005` 
+- R script for plotting read coverage
 - Bash script for running ClinSV structural variant calling.
 - Input files required for the analysis.
 - Information for accessing the WGS BAM file through dbGaP.
