@@ -9,7 +9,7 @@ The repository is organized into two main analysis modules:
 
 ## 1. Structural variant calling
 
-This folder contains the script used to call structural variants from the whole-genome sequencing BAM file using ClinSV.
+This folder contains the R script to plot read coverage for the WGS sample and script used to call structural variants from the WGS BAM file using ClinSV.
 
 Included files:
 
