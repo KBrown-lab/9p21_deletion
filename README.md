@@ -18,9 +18,7 @@ Included files:
 - Input files required for the analysis.
 - Information for accessing the WGS BAM file through dbGaP.
 
-The WGS data generated for sample `7646-01005` are available through dbGaP under accession:`phs004649.v1`
-
-Individual-level sequencing data are not included in this repository because of participant privacy and controlled-access data restrictions.
+Individual-level sequencing data are not included in this repository because of participant privacy and controlled-access data restrictions. However, they are available through dbGaP under accession:`phs004649.v1`  
 
 ## 2. AlphaGenome prediction
 
